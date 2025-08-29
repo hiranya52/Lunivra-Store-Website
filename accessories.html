@@ -1,13 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Accessories</title>
+    <link rel="icon" href="./assets/img/lunivraLogo.png" type="image/x-icon">
     <link rel="stylesheet" href="./assets/styles/style.css">
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://cdn.jsdelivr.net/npm/flowbite@3.1.2/dist/flowbite.min.css" rel="stylesheet" />
 </head>
+
 <body>
 
     <header>
@@ -27,16 +30,16 @@
             </marquee>
         </div>
 
-        <div class="flex mt-3 mx-auto">
-            <div><img src="./assets/img/lunivraLogo.png" alt="" width="160"></div>
-            <div class="ml-20 mt-6">
+        <div class="flex flex-col md:flex-row items-center mt-3 mx-auto px-4">
+            <div class="flex-shrink-0"><img src="./assets/img/lunivraLogo.png" alt="" class="w-40 "></div>
+            <div class="ml-20">
                 <p class="whitespace-nowrap text-[0.8rem]">Customer Service +94 77 5 799 554</p>
             </div>
-            <div>
-                <h1 class="title ml-[16rem] text-gray-900">Lunivra</h1>
+            <div class="ml-56">
+                <h1 class="title text-3xl ml-auto text-gray-900 font-montserrat">Lunivra</h1>
             </div>
-            <div class="flex gap-8 ml-[26rem] mt-2">
-                <?xml version="1.0" encoding="UTF-8"?><svg width="32" height="45" stroke-width="1.5" viewBox="0 0 24 24"
+            <div class="flex gap-8 mt-2 md:mt-0 ml-auto">
+                <svg width="32" height="45" stroke-width="1.5" viewBox="0 0 24 24"
                     fill="none" xmlns="http://www.w3.org/2000/svg" color="#000000">
                     <path d="M5 20V19C5 15.134 8.13401 12 12 12V12C15.866 12 19 15.134 19 19V20" stroke="#000000"
                         stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
@@ -44,14 +47,14 @@
                         d="M12 12C14.2091 12 16 10.2091 16 8C16 5.79086 14.2091 4 12 4C9.79086 4 8 5.79086 8 8C8 10.2091 9.79086 12 12 12Z"
                         stroke="#000000" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
                 </svg>
-                <?xml version="1.0" encoding="UTF-8"?><svg width="28" height="45" stroke-width="1.5" viewBox="0 0 24 24"
+                <svg width="28" height="45" stroke-width="1.5" viewBox="0 0 24 24"
                     fill="none" xmlns="http://www.w3.org/2000/svg" color="#000000">
                     <path
                         d="M22 8.86222C22 10.4087 21.4062 11.8941 20.3458 12.9929C17.9049 15.523 15.5374 18.1613 13.0053 20.5997C12.4249 21.1505 11.5042 21.1304 10.9488 20.5547L3.65376 12.9929C1.44875 10.7072 1.44875 7.01723 3.65376 4.73157C5.88044 2.42345 9.50794 2.42345 11.7346 4.73157L11.9998 5.00642L12.2648 4.73173C13.3324 3.6245 14.7864 3 16.3053 3C17.8242 3 19.2781 3.62444 20.3458 4.73157C21.4063 5.83045 22 7.31577 22 8.86222Z"
                         stroke="#000000" stroke-width="1.5" stroke-linejoin="round"></path>
                 </svg>
                 <a href="./cart.html">
-                    <?xml version="1.0" encoding="UTF-8"?><svg width="28" width="26px" height="45" height="40px"
+                    <svg width="28" width="26px" height="45" height="40px"
                         stroke-width="1.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"
                         color="#000000">
                         <path
@@ -72,6 +75,7 @@
                 </a>
             </div>
         </div>
+
 
         <div>
             <nav class="bg-white border-gray-200 dark:bg-gray-900 mt-3">
@@ -121,327 +125,350 @@
         </div>
     </header>
 
+    <div class="flex items-center gap-4 mt-8 px-4">
+        <hr class="flex-1 border-t border-black">
+        <h1 class="whitespace-nowrap font-serif text-base m:text-lg md:text-xl lg:text-2xl">
+            ELEVATE EVERY OUTFIT
+        </h1>
+        <hr class="flex-1 border-t border-black">
+    </div>
 
     <div class="mt-10 flex flex-wrap justify-center ml-8 gap-24 mr-8">
 
-            <div class="w-[22rem] bg-white border border-black shadow-sm dark:bg-white dark:border-gray-700">
+        <div class="w-[22rem] bg-white shadow-sm dark:bg-white dark:border-gray-700 rounded-xl shadow-xl">
+            <a href="#">
+                <img class="rounded-xl" src="./assets/img/accessories_1.jpg" alt="" />
+            </a>
+            <div class="p-3 text-center">
                 <a href="#">
-                    <img src="./assets/img/accessories_1.jpg" alt="" />
+                    <h5 class="mb-2 text-l font-bold tracking-tight text-black dark:text-black">Scylla Classic Mesh
+                        Trucker Cap</h5>
                 </a>
-                <div class="p-3 text-center">
-                    <a href="#">
-                        <h5 class="mb-2 text-l font-bold tracking-tight text-black dark:text-black">Scylla Classic Mesh Trucker Cap</h5>
-                    </a>
-                    <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Rs 3,500.00</p>
-                    <button onclick="addToCart('Scylla Classic Mesh Trucker Cap', 3500, './assets/img/accessories_1.jpg')"
-                        class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-[#495057] rounded-lg hover:bg-gray-800 focus:ring-4 focus:outline-none focus:ring-gray-300 dark:bg-[#495057] dark:hover:bg-gray-900 dark:focus:ring-gray-800">
-                        Add to Cart
-                    </button>
-                </div>
-            </div>
-
-            <div class="w-[22rem] bg-white border border-black shadow-sm dark:bg-white dark:border-gray-700">
-                <a href="#">
-                    <img src="./assets/img/accessories_2.jpg" alt="" />
-                </a>
-                <div class="p-3 text-center">
-                    <a href="#">
-                        <h5 class="mb-2 text-l font-bold tracking-tight text-black dark:text-black">The Harbor Chunk</h5>
-                    </a>
-                    <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Rs 19,900.00</p>
-                    <button onclick="addToCart('The Harbor Chunk', 19900, './assets/img/accessories_2.jpg')"
-                        class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-[#495057] rounded-lg hover:bg-gray-800 focus:ring-4 focus:outline-none focus:ring-gray-300 dark:bg-[#495057] dark:hover:bg-gray-900 dark:focus:ring-gray-800">
-                        Add to Cart
-                    </button>
-                </div>
-            </div>
-
-            <div class="w-[22rem] bg-white border border-black shadow-sm dark:bg-white dark:border-gray-700">
-                <a href="#">
-                    <img src="./assets/img/accessories_3.jpg" alt="" />
-                </a>
-                <div class="p-3 text-center">
-                    <a href="#">
-                        <h5 class="mb-2 text-l font-bold tracking-tight text-black dark:text-black">Jetty Platform</h5>
-                    </a>
-                    <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Rs 24,900.00</p>
-                    <button onclick="addToCart('Jetty Platform', 24900, './assets/img/accessories_3.jpg')"
-                        class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-[#495057] rounded-lg hover:bg-gray-800 focus:ring-4 focus:outline-none focus:ring-gray-300 dark:bg-[#495057] dark:hover:bg-gray-900 dark:focus:ring-gray-800">
-                        Add to Cart
-                    </button>
-                </div>
+                <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Rs 3,500.00</p>
+                <button onclick="addToCart('Scylla Classic Mesh Trucker Cap', 3500, './assets/img/accessories_1.jpg')"
+                    class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-[#495057] rounded-lg hover:bg-gray-800 focus:ring-4 focus:outline-none focus:ring-gray-300 dark:bg-[#495057] dark:hover:bg-gray-900 dark:focus:ring-gray-800">
+                    Add to Cart
+                </button>
             </div>
         </div>
 
-
-        <div class="mt-10 flex flex-wrap justify-center ml-8 gap-24 mr-8">
-
-            <div class="w-[22rem] bg-white border border-black shadow-sm dark:bg-white dark:border-gray-700">
+        <div class="w-[22rem] bg-white shadow-sm dark:bg-white dark:border-gray-700 rounded-xl shadow-xl">
+            <a href="#">
+                <img class="rounded-xl" src="./assets/img/accessories_2.jpg" alt="" />
+            </a>
+            <div class="p-3 text-center">
                 <a href="#">
-                    <img src="./assets/img/accessories_4.jpg" alt="" />
+                    <h5 class="mb-2 text-l font-bold tracking-tight text-black dark:text-black">The Harbor Chunk</h5>
                 </a>
-                <div class="p-3 text-center">
-                    <a href="#">
-                        <h5 class="mb-2 text-l font-bold tracking-tight text-black dark:text-black">Quarterdeck Platform</h5>
-                    </a>
-                    <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Rs 19,900.00</p>
-                    <button onclick="addToCart('Quarterdeck Platform', 19900, './assets/img/accessories_4.jpg')"
-                        class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-[#495057] rounded-lg hover:bg-gray-800 focus:ring-4 focus:outline-none focus:ring-gray-300 dark:bg-[#495057] dark:hover:bg-gray-900 dark:focus:ring-gray-800">
-                        Add to Cart
-                    </button>
-                </div>
-            </div>
-
-            <div class="w-[22rem] bg-white border border-black shadow-sm dark:bg-white dark:border-gray-700">
-                <a href="#">
-                    <img src="./assets/img/accessories_5.jpg" alt="" />
-                </a>
-                <div class="p-3 text-center">
-                    <a href="#">
-                        <h5 class="mb-2 text-l font-bold tracking-tight text-black dark:text-black">The Pier Sling - White</h5>
-                    </a>
-                    <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Rs 24,900.00</p>
-                    <button onclick="addToCart('The Pier Sling - White', 24900, './assets/img/accessories_5.jpg')"
-                        class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-[#495057] rounded-lg hover:bg-gray-800 focus:ring-4 focus:outline-none focus:ring-gray-300 dark:bg-[#495057] dark:hover:bg-gray-900 dark:focus:ring-gray-800">
-                        Add to Cart
-                    </button>
-                </div>
-            </div>
-
-            <div class="w-[22rem] bg-white border border-black shadow-sm dark:bg-white dark:border-gray-700">
-                <a href="#">
-                    <img src="./assets/img/accessories_6.jpg" alt="" />
-                </a>
-                <div class="p-3 text-center">
-                    <a href="#">
-                        <h5 class="mb-2 text-l font-bold tracking-tight text-black dark:text-black">The Pier Sling - Black</h5>
-                    </a>
-                    <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Rs 24,900.00</p>
-                    <button onclick="addToCart('The Pier Sling - Black', 24900, './assets/img/accessories_6.jpg')"
-                        class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-[#495057] rounded-lg hover:bg-gray-800 focus:ring-4 focus:outline-none focus:ring-gray-300 dark:bg-[#495057] dark:hover:bg-gray-900 dark:focus:ring-gray-800">
-                        Add to Cart
-                    </button>
-                </div>
+                <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Rs 19,900.00</p>
+                <button onclick="addToCart('The Harbor Chunk', 19900, './assets/img/accessories_2.jpg')"
+                    class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-[#495057] rounded-lg hover:bg-gray-800 focus:ring-4 focus:outline-none focus:ring-gray-300 dark:bg-[#495057] dark:hover:bg-gray-900 dark:focus:ring-gray-800">
+                    Add to Cart
+                </button>
             </div>
         </div>
 
-
-        <div class="mt-10 flex flex-wrap justify-center ml-8 gap-24 mr-8">
-
-            <div class="w-[22rem] bg-white border border-black shadow-sm dark:bg-white dark:border-gray-700">
+        <div class="w-[22rem] bg-white shadow-sm dark:bg-white dark:border-gray-700 rounded-xl shadow-xl">
+            <a href="#">
+                <img class="rounded-xl" src="./assets/img/accessories_3.jpg" alt="" />
+            </a>
+            <div class="p-3 text-center">
                 <a href="#">
-                    <img src="./assets/img/accessories_7.jpg" alt="" />
+                    <h5 class="mb-2 text-l font-bold tracking-tight text-black dark:text-black">Jetty Platform</h5>
                 </a>
-                <div class="p-3 text-center">
-                    <a href="#">
-                        <h5 class="mb-2 text-l font-bold tracking-tight text-black dark:text-black">Berth Quarter Tote - Cream</h5>
-                    </a>
-                    <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Rs 19,900.00</p>
-                    <button onclick="addToCart('Berth Quarter Tote - Cream', 19900, './assets/img/accessories_7.jpg')"
-                        class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-[#495057] rounded-lg hover:bg-gray-800 focus:ring-4 focus:outline-none focus:ring-gray-300 dark:bg-[#495057] dark:hover:bg-gray-900 dark:focus:ring-gray-800">
-                        Add to Cart
-                    </button>
-                </div>
+                <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Rs 24,900.00</p>
+                <button onclick="addToCart('Jetty Platform', 24900, './assets/img/accessories_3.jpg')"
+                    class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-[#495057] rounded-lg hover:bg-gray-800 focus:ring-4 focus:outline-none focus:ring-gray-300 dark:bg-[#495057] dark:hover:bg-gray-900 dark:focus:ring-gray-800">
+                    Add to Cart
+                </button>
             </div>
+        </div>
+    </div>
 
-            <div class="w-[22rem] bg-white border border-black shadow-sm dark:bg-white dark:border-gray-700">
-                <a href="#">
-                    <img src="./assets/img/accessories_8.jpg" alt="" />
-                </a>
-                <div class="p-3 text-center">
-                    <a href="#">
-                        <h5 class="mb-2 text-l font-bold tracking-tight text-black dark:text-black">Berth Quarter Tote - Beige</h5>
-                    </a>
-                    <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Rs 19,900.00</p>
-                    <button onclick="addToCart('Berth Quarter Tote - Beige', 19900, './assets/img/accessories_8.jpg')"
-                        class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-[#495057] rounded-lg hover:bg-gray-800 focus:ring-4 focus:outline-none focus:ring-gray-300 dark:bg-[#495057] dark:hover:bg-gray-900 dark:focus:ring-gray-800">
-                        Add to Cart
-                    </button>
-                </div>
-            </div>
 
-            <div class="w-[22rem] bg-white border border-black shadow-sm dark:bg-white dark:border-gray-700">
+    <div class="mt-10 flex flex-wrap justify-center ml-8 gap-24 mr-8">
+
+        <div class="w-[22rem] bg-white shadow-sm dark:bg-white dark:border-gray-700 rounded-xl shadow-xl">
+            <a href="#">
+                <img class="rounded-xl" src="./assets/img/accessories_4.jpg" alt="" />
+            </a>
+            <div class="p-3 text-center">
                 <a href="#">
-                    <img src="./assets/img/accessories_9.jpg" alt="" />
+                    <h5 class="mb-2 text-l font-bold tracking-tight text-black dark:text-black">Quarterdeck Platform
+                    </h5>
                 </a>
-                <div class="p-3 text-center">
-                    <a href="#">
-                        <h5 class="mb-2 text-l font-bold tracking-tight text-black dark:text-black">Sailaway Crochet</h5>
-                    </a>
-                    <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Rs 15,100.00</p>
-                    <button onclick="addToCart('Sailaway Crochet', 15100, './assets/img/accessories_9.jpg')"
-                        class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-[#495057] rounded-lg hover:bg-gray-800 focus:ring-4 focus:outline-none focus:ring-gray-300 dark:bg-[#495057] dark:hover:bg-gray-900 dark:focus:ring-gray-800">
-                        Add to Cart
-                    </button>
-                </div>
+                <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Rs 19,900.00</p>
+                <button onclick="addToCart('Quarterdeck Platform', 19900, './assets/img/accessories_4.jpg')"
+                    class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-[#495057] rounded-lg hover:bg-gray-800 focus:ring-4 focus:outline-none focus:ring-gray-300 dark:bg-[#495057] dark:hover:bg-gray-900 dark:focus:ring-gray-800">
+                    Add to Cart
+                </button>
             </div>
         </div>
 
-
-
-
-        <div class="mt-10 flex flex-wrap justify-center ml-8 gap-24 mr-8">
-
-            <div class="w-[22rem] bg-white border border-black shadow-sm dark:bg-white dark:border-gray-700">
+        <div class="w-[22rem] bg-white shadow-sm dark:bg-white dark:border-gray-700 rounded-xl shadow-xl">
+            <a href="#">
+                <img class="rounded-xl" src="./assets/img/accessories_5.jpg" alt="" />
+            </a>
+            <div class="p-3 text-center">
                 <a href="#">
-                    <img src="./assets/img/accessories_10.jpg" alt="" />
+                    <h5 class="mb-2 text-l font-bold tracking-tight text-black dark:text-black">The Pier Sling - White
+                    </h5>
                 </a>
-                <div class="p-3 text-center">
-                    <a href="#">
-                        <h5 class="mb-2 text-l font-bold tracking-tight text-black dark:text-black">Life Is Beautiful</h5>
-                    </a>
-                    <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Rs 25,500.00</p>
-                    <button onclick="addToCart('Life Is Beautiful', 25500, './assets/img/accessories_10.jpg')"
-                        class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-[#495057] rounded-lg hover:bg-gray-800 focus:ring-4 focus:outline-none focus:ring-gray-300 dark:bg-[#495057] dark:hover:bg-gray-900 dark:focus:ring-gray-800">
-                        Add to Cart
-                    </button>
-                </div>
-            </div>
-
-            <div class="w-[22rem] bg-white border border-black shadow-sm dark:bg-white dark:border-gray-700">
-                <a href="#">
-                    <img src="./assets/img/accessories_11.jpg" alt="" />
-                </a>
-                <div class="p-3 text-center">
-                    <a href="#">
-                        <h5 class="mb-2 text-l font-bold tracking-tight text-black dark:text-black">Redvers Buller “Heritage Voyager” Leather Duffle Bag</h5>
-                    </a>
-                    <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Rs 27,990.00</p>
-                    <button onclick="addToCart('Redvers Buller “Heritage Voyager” Leather Duffle Bag', 27990, './assets/img/accessories_11.jpg')"
-                        class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-[#495057] rounded-lg hover:bg-gray-800 focus:ring-4 focus:outline-none focus:ring-gray-300 dark:bg-[#495057] dark:hover:bg-gray-900 dark:focus:ring-gray-800">
-                        Add to Cart
-                    </button>
-                </div>
-            </div>
-
-            <div class="w-[22rem] bg-white border border-black shadow-sm dark:bg-white dark:border-gray-700">
-                <a href="#">
-                    <img src="./assets/img/accessories_12.jpg" alt="" />
-                </a>
-                <div class="p-3 text-center">
-                    <a href="#">
-                        <h5 class="mb-2 text-l font-bold tracking-tight text-black dark:text-black">Redvers Buller “Regal Bit” Leather Loafers</h5>
-                    </a>
-                    <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Rs 12,900.00</p>
-                    <button onclick="addToCart('Redvers Buller “Regal Bit” Leather Loafers', 12900, './assets/img/accessories_12.jpg')"
-                        class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-[#495057] rounded-lg hover:bg-gray-800 focus:ring-4 focus:outline-none focus:ring-gray-300 dark:bg-[#495057] dark:hover:bg-gray-900 dark:focus:ring-gray-800">
-                        Add to Cart
-                    </button>
-                </div>
+                <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Rs 24,900.00</p>
+                <button onclick="addToCart('The Pier Sling - White', 24900, './assets/img/accessories_5.jpg')"
+                    class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-[#495057] rounded-lg hover:bg-gray-800 focus:ring-4 focus:outline-none focus:ring-gray-300 dark:bg-[#495057] dark:hover:bg-gray-900 dark:focus:ring-gray-800">
+                    Add to Cart
+                </button>
             </div>
         </div>
 
-
-
-
-
-        <div class="mt-10 flex flex-wrap justify-center ml-8 gap-24 mr-8">
-
-            <div class="w-[22rem] bg-white border border-black shadow-sm dark:bg-white dark:border-gray-700">
+        <div class="w-[22rem] bg-white shadow-sm dark:bg-white dark:border-gray-700 rounded-xl shadow-xl">
+            <a href="#">
+                <img class="rounded-xl" src="./assets/img/accessories_6.jpg" alt="" />
+            </a>
+            <div class="p-3 text-center">
                 <a href="#">
-                    <img src="./assets/img/accessories_13.jpg" alt="" />
+                    <h5 class="mb-2 text-l font-bold tracking-tight text-black dark:text-black">The Pier Sling - Black
+                    </h5>
                 </a>
-                <div class="p-3 text-center">
-                    <a href="#">
-                        <h5 class="mb-2 text-l font-bold tracking-tight text-black dark:text-black">Redvers Buller “Oxford Prime” Derby Shoes</h5>
-                    </a>
-                    <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Rs 13,550.00</p>
-                    <button onclick="addToCart('Redvers Buller “Oxford Prime” Derby Shoes', 13550, './assets/img/accessories_13.jpg')"
-                        class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-[#495057] rounded-lg hover:bg-gray-800 focus:ring-4 focus:outline-none focus:ring-gray-300 dark:bg-[#495057] dark:hover:bg-gray-900 dark:focus:ring-gray-800">
-                        Add to Cart
-                    </button>
-                </div>
+                <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Rs 24,900.00</p>
+                <button onclick="addToCart('The Pier Sling - Black', 24900, './assets/img/accessories_6.jpg')"
+                    class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-[#495057] rounded-lg hover:bg-gray-800 focus:ring-4 focus:outline-none focus:ring-gray-300 dark:bg-[#495057] dark:hover:bg-gray-900 dark:focus:ring-gray-800">
+                    Add to Cart
+                </button>
             </div>
+        </div>
+    </div>
 
-            <div class="w-[22rem] bg-white border border-black shadow-sm dark:bg-white dark:border-gray-700">
-                <a href="#">
-                    <img src="./assets/img/accessories_14.jpg" alt="" />
-                </a>
-                <div class="p-3 text-center">
-                    <a href="#">
-                        <h5 class="mb-2 text-l font-bold tracking-tight text-black dark:text-black">SCY Ember Guard 0.5</h5>
-                    </a>
-                    <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Rs 4,990.00</p>
-                    <button onclick="addToCart('SCY Ember Guard 0.5', 4990, './assets/img/accessories_14.jpg')"
-                        class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-[#495057] rounded-lg hover:bg-gray-800 focus:ring-4 focus:outline-none focus:ring-gray-300 dark:bg-[#495057] dark:hover:bg-gray-900 dark:focus:ring-gray-800">
-                        Add to Cart
-                    </button>
-                </div>
-            </div>
 
-            <div class="w-[22rem] bg-white border border-black shadow-sm dark:bg-white dark:border-gray-700">
+    <div class="mt-10 flex flex-wrap justify-center ml-8 gap-24 mr-8">
+
+        <div class="w-[22rem] bg-white shadow-sm dark:bg-white dark:border-gray-700 rounded-xl shadow-xl">
+            <a href="#">
+                <img class="rounded-xl" src="./assets/img/accessories_7.jpg" alt="" />
+            </a>
+            <div class="p-3 text-center">
                 <a href="#">
-                    <img src="./assets/img/accessories_15.jpg" alt="" />
+                    <h5 class="mb-2 text-l font-bold tracking-tight text-black dark:text-black">Berth Quarter Tote -
+                        Cream</h5>
                 </a>
-                <div class="p-3 text-center">
-                    <a href="#">
-                        <h5 class="mb-2 text-l font-bold tracking-tight text-black dark:text-black">Built For Athletes Socks</h5>
-                    </a>
-                    <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Rs 1,550.00</p>
-                    <button onclick="addToCart('Built For Athletes Socks', 1550, './assets/img/accessories_15.jpg')"
-                        class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-[#495057] rounded-lg hover:bg-gray-800 focus:ring-4 focus:outline-none focus:ring-gray-300 dark:bg-[#495057] dark:hover:bg-gray-900 dark:focus:ring-gray-800">
-                        Add to Cart
-                    </button>
-                </div>
+                <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Rs 19,900.00</p>
+                <button onclick="addToCart('Berth Quarter Tote - Cream', 19900, './assets/img/accessories_7.jpg')"
+                    class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-[#495057] rounded-lg hover:bg-gray-800 focus:ring-4 focus:outline-none focus:ring-gray-300 dark:bg-[#495057] dark:hover:bg-gray-900 dark:focus:ring-gray-800">
+                    Add to Cart
+                </button>
             </div>
         </div>
 
-
-
-
-        <div class="mt-10 flex flex-wrap justify-center ml-8 gap-24 mr-8">
-
-            <div class="w-[22rem] bg-white border border-black shadow-sm dark:bg-white dark:border-gray-700">
+        <div class="w-[22rem] bg-white shadow-sm dark:bg-white dark:border-gray-700 rounded-xl shadow-xl">
+            <a href="#">
+                <img class="rounded-xl" src="./assets/img/accessories_8.jpg" alt="" />
+            </a>
+            <div class="p-3 text-center">
                 <a href="#">
-                    <img src="./assets/img/accessories_16.jpg" alt="" />
+                    <h5 class="mb-2 text-l font-bold tracking-tight text-black dark:text-black">Berth Quarter Tote -
+                        Beige</h5>
                 </a>
-                <div class="p-3 text-center">
-                    <a href="#">
-                        <h5 class="mb-2 text-l font-bold tracking-tight text-black dark:text-black">Built For Athletes" Premium Socks</h5>
-                    </a>
-                    <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Rs 1,250.00</p>
-                    <button onclick="addToCart('Built For Athletes Premium Socks', 1250, './assets/img/accessories_16.jpg')"
-                        class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-[#495057] rounded-lg hover:bg-gray-800 focus:ring-4 focus:outline-none focus:ring-gray-300 dark:bg-[#495057] dark:hover:bg-gray-900 dark:focus:ring-gray-800">
-                        Add to Cart
-                    </button>
-                </div>
-            </div>
-
-            <div class="w-[22rem] bg-white border border-black shadow-sm dark:bg-white dark:border-gray-700">
-                <a href="#">
-                    <img src="./assets/img/accessories_17.jpg" alt="" />
-                </a>
-                <div class="p-3 text-center">
-                    <a href="#">
-                        <h5 class="mb-2 text-l font-bold tracking-tight text-black dark:text-black">Scylla Air 2.0 Premium Slides</h5>
-                    </a>
-                    <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Rs 1,996.00</p>
-                    <button onclick="addToCart('Scylla Air 2.0 Premium Slides', 1996, './assets/img/accessories_17.jpg')"
-                        class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-[#495057] rounded-lg hover:bg-gray-800 focus:ring-4 focus:outline-none focus:ring-gray-300 dark:bg-[#495057] dark:hover:bg-gray-900 dark:focus:ring-gray-800">
-                        Add to Cart
-                    </button>
-                </div>
-            </div>
-
-            <div class="w-[22rem] bg-white border border-black shadow-sm dark:bg-white dark:border-gray-700">
-                <a href="#">
-                    <img src="./assets/img/accessories_18.jpg" alt="" />
-                </a>
-                <div class="p-3 text-center">
-                    <a href="#">
-                        <h5 class="mb-2 text-l font-bold tracking-tight text-black dark:text-black">Berth Quarter Tote - White</h5>
-                    </a>
-                    <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Rs 19,900.00</p>
-                    <button onclick="addToCart('Berth Quarter Tote - White', 19900, './assets/img/accessories_18.jpg')"
-                        class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-[#495057] rounded-lg hover:bg-gray-800 focus:ring-4 focus:outline-none focus:ring-gray-300 dark:bg-[#495057] dark:hover:bg-gray-900 dark:focus:ring-gray-800">
-                        Add to Cart
-                    </button>
-                </div>
+                <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Rs 19,900.00</p>
+                <button onclick="addToCart('Berth Quarter Tote - Beige', 19900, './assets/img/accessories_8.jpg')"
+                    class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-[#495057] rounded-lg hover:bg-gray-800 focus:ring-4 focus:outline-none focus:ring-gray-300 dark:bg-[#495057] dark:hover:bg-gray-900 dark:focus:ring-gray-800">
+                    Add to Cart
+                </button>
             </div>
         </div>
 
+        <div class="w-[22rem] bg-white shadow-sm dark:bg-white dark:border-gray-700 rounded-xl shadow-xl">
+            <a href="#">
+                <img class="rounded-xl" src="./assets/img/accessories_9.jpg" alt="" />
+            </a>
+            <div class="p-3 text-center">
+                <a href="#">
+                    <h5 class="mb-2 text-l font-bold tracking-tight text-black dark:text-black">Sailaway Crochet</h5>
+                </a>
+                <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Rs 15,100.00</p>
+                <button onclick="addToCart('Sailaway Crochet', 15100, './assets/img/accessories_9.jpg')"
+                    class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-[#495057] rounded-lg hover:bg-gray-800 focus:ring-4 focus:outline-none focus:ring-gray-300 dark:bg-[#495057] dark:hover:bg-gray-900 dark:focus:ring-gray-800">
+                    Add to Cart
+                </button>
+            </div>
+        </div>
+    </div>
 
-        <footer class="bg-white dark:bg-gray-900 mt-40">
+
+
+
+    <div class="mt-10 flex flex-wrap justify-center ml-8 gap-24 mr-8">
+
+        <div class="w-[22rem] bg-white shadow-sm dark:bg-white dark:border-gray-700 rounded-xl shadow-xl">
+            <a href="#">
+                <img class="rounded-xl" src="./assets/img/accessories_10.jpg" alt="" />
+            </a>
+            <div class="p-3 text-center">
+                <a href="#">
+                    <h5 class="mb-2 text-l font-bold tracking-tight text-black dark:text-black">Life Is Beautiful</h5>
+                </a>
+                <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Rs 25,500.00</p>
+                <button onclick="addToCart('Life Is Beautiful', 25500, './assets/img/accessories_10.jpg')"
+                    class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-[#495057] rounded-lg hover:bg-gray-800 focus:ring-4 focus:outline-none focus:ring-gray-300 dark:bg-[#495057] dark:hover:bg-gray-900 dark:focus:ring-gray-800">
+                    Add to Cart
+                </button>
+            </div>
+        </div>
+
+        <div class="w-[22rem] bg-white shadow-sm dark:bg-white dark:border-gray-700 rounded-xl shadow-xl">
+            <a href="#">
+                <img class="rounded-xl" src="./assets/img/accessories_11.jpg" alt="" />
+            </a>
+            <div class="p-3 text-center">
+                <a href="#">
+                    <h5 class="mb-2 text-l font-bold tracking-tight text-black dark:text-black">Redvers Buller “Heritage
+                        Voyager” Leather Duffle Bag</h5>
+                </a>
+                <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Rs 27,990.00</p>
+                <button
+                    onclick="addToCart('Redvers Buller “Heritage Voyager” Leather Duffle Bag', 27990, './assets/img/accessories_11.jpg')"
+                    class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-[#495057] rounded-lg hover:bg-gray-800 focus:ring-4 focus:outline-none focus:ring-gray-300 dark:bg-[#495057] dark:hover:bg-gray-900 dark:focus:ring-gray-800">
+                    Add to Cart
+                </button>
+            </div>
+        </div>
+
+        <div class="w-[22rem] bg-white shadow-sm dark:bg-white dark:border-gray-700 rounded-xl shadow-xl">
+            <a href="#">
+                <img src="./assets/img/accessories_12.jpg" alt="" />
+            </a>
+            <div class="p-3 text-center">
+                <a href="#">
+                    <h5 class="mb-2 text-l font-bold tracking-tight text-black dark:text-black">Redvers Buller “Regal
+                        Bit” Leather Loafers</h5>
+                </a>
+                <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Rs 12,900.00</p>
+                <button
+                    onclick="addToCart('Redvers Buller “Regal Bit” Leather Loafers', 12900, './assets/img/accessories_12.jpg')"
+                    class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-[#495057] rounded-lg hover:bg-gray-800 focus:ring-4 focus:outline-none focus:ring-gray-300 dark:bg-[#495057] dark:hover:bg-gray-900 dark:focus:ring-gray-800">
+                    Add to Cart
+                </button>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    <div class="mt-10 flex flex-wrap justify-center ml-8 gap-24 mr-8">
+
+        <div class="w-[22rem] bg-white border border-black shadow-sm dark:bg-white dark:border-gray-700">
+            <a href="#">
+                <img src="./assets/img/accessories_13.jpg" alt="" />
+            </a>
+            <div class="p-3 text-center">
+                <a href="#">
+                    <h5 class="mb-2 text-l font-bold tracking-tight text-black dark:text-black">Redvers Buller “Oxford
+                        Prime” Derby Shoes</h5>
+                </a>
+                <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Rs 13,550.00</p>
+                <button
+                    onclick="addToCart('Redvers Buller “Oxford Prime” Derby Shoes', 13550, './assets/img/accessories_13.jpg')"
+                    class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-[#495057] rounded-lg hover:bg-gray-800 focus:ring-4 focus:outline-none focus:ring-gray-300 dark:bg-[#495057] dark:hover:bg-gray-900 dark:focus:ring-gray-800">
+                    Add to Cart
+                </button>
+            </div>
+        </div>
+
+        <div class="w-[22rem] bg-white border border-black shadow-sm dark:bg-white dark:border-gray-700">
+            <a href="#">
+                <img src="./assets/img/accessories_14.jpg" alt="" />
+            </a>
+            <div class="p-3 text-center">
+                <a href="#">
+                    <h5 class="mb-2 text-l font-bold tracking-tight text-black dark:text-black">SCY Ember Guard 0.5</h5>
+                </a>
+                <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Rs 4,990.00</p>
+                <button onclick="addToCart('SCY Ember Guard 0.5', 4990, './assets/img/accessories_14.jpg')"
+                    class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-[#495057] rounded-lg hover:bg-gray-800 focus:ring-4 focus:outline-none focus:ring-gray-300 dark:bg-[#495057] dark:hover:bg-gray-900 dark:focus:ring-gray-800">
+                    Add to Cart
+                </button>
+            </div>
+        </div>
+
+        <div class="w-[22rem] bg-white border border-black shadow-sm dark:bg-white dark:border-gray-700">
+            <a href="#">
+                <img src="./assets/img/accessories_15.jpg" alt="" />
+            </a>
+            <div class="p-3 text-center">
+                <a href="#">
+                    <h5 class="mb-2 text-l font-bold tracking-tight text-black dark:text-black">Built For Athletes Socks
+                    </h5>
+                </a>
+                <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Rs 1,550.00</p>
+                <button onclick="addToCart('Built For Athletes Socks', 1550, './assets/img/accessories_15.jpg')"
+                    class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-[#495057] rounded-lg hover:bg-gray-800 focus:ring-4 focus:outline-none focus:ring-gray-300 dark:bg-[#495057] dark:hover:bg-gray-900 dark:focus:ring-gray-800">
+                    Add to Cart
+                </button>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <div class="mt-10 flex flex-wrap justify-center ml-8 gap-24 mr-8">
+
+        <div class="w-[22rem] bg-white border border-black shadow-sm dark:bg-white dark:border-gray-700">
+            <a href="#">
+                <img src="./assets/img/accessories_16.jpg" alt="" />
+            </a>
+            <div class="p-3 text-center">
+                <a href="#">
+                    <h5 class="mb-2 text-l font-bold tracking-tight text-black dark:text-black">Built For Athletes"
+                        Premium Socks</h5>
+                </a>
+                <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Rs 1,250.00</p>
+                <button onclick="addToCart('Built For Athletes Premium Socks', 1250, './assets/img/accessories_16.jpg')"
+                    class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-[#495057] rounded-lg hover:bg-gray-800 focus:ring-4 focus:outline-none focus:ring-gray-300 dark:bg-[#495057] dark:hover:bg-gray-900 dark:focus:ring-gray-800">
+                    Add to Cart
+                </button>
+            </div>
+        </div>
+
+        <div class="w-[22rem] bg-white border border-black shadow-sm dark:bg-white dark:border-gray-700">
+            <a href="#">
+                <img src="./assets/img/accessories_17.jpg" alt="" />
+            </a>
+            <div class="p-3 text-center">
+                <a href="#">
+                    <h5 class="mb-2 text-l font-bold tracking-tight text-black dark:text-black">Scylla Air 2.0 Premium
+                        Slides</h5>
+                </a>
+                <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Rs 1,996.00</p>
+                <button onclick="addToCart('Scylla Air 2.0 Premium Slides', 1996, './assets/img/accessories_17.jpg')"
+                    class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-[#495057] rounded-lg hover:bg-gray-800 focus:ring-4 focus:outline-none focus:ring-gray-300 dark:bg-[#495057] dark:hover:bg-gray-900 dark:focus:ring-gray-800">
+                    Add to Cart
+                </button>
+            </div>
+        </div>
+
+        <div class="w-[22rem] bg-white border border-black shadow-sm dark:bg-white dark:border-gray-700">
+            <a href="#">
+                <img src="./assets/img/accessories_18.jpg" alt="" />
+            </a>
+            <div class="p-3 text-center">
+                <a href="#">
+                    <h5 class="mb-2 text-l font-bold tracking-tight text-black dark:text-black">Berth Quarter Tote -
+                        White</h5>
+                </a>
+                <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Rs 19,900.00</p>
+                <button onclick="addToCart('Berth Quarter Tote - White', 19900, './assets/img/accessories_18.jpg')"
+                    class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-[#495057] rounded-lg hover:bg-gray-800 focus:ring-4 focus:outline-none focus:ring-gray-300 dark:bg-[#495057] dark:hover:bg-gray-900 dark:focus:ring-gray-800">
+                    Add to Cart
+                </button>
+            </div>
+        </div>
+    </div>
+
+
+    <footer class="bg-white dark:bg-gray-900 mt-40">
         <div class="mx-auto w-full max-w-screen-xl">
             <div class="grid grid-cols-2 gap-8 px-4 py-6 lg:py-8 md:grid-cols-4">
                 <div class="mb-6 md:mb-0">
@@ -553,6 +580,11 @@
             </div>
         </div>
     </footer>
-    
+
+
+
+    <script src="./assets/js/app.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/flowbite@3.1.2/dist/flowbite.min.js"></script>
 </body>
+
 </html>
