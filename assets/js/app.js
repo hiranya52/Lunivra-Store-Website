@@ -5,7 +5,6 @@ function addToCart(name, price, image) {
     alert(name + " added to cart!");
 }
 
-
 function loadCart() {
       let cart = JSON.parse(localStorage.getItem("cart")) || [];
       let cartItems = document.getElementById("cartItems");
@@ -25,7 +24,6 @@ function loadCart() {
           </tr>
         `;
       });
-
       document.getElementById("total").innerText = total;
     }
 
